@@ -203,8 +203,8 @@
             "organization": "United States Navy",
             "position": "Culinary Specialist",
             "website": "",
-            "startDate": "2001",
-            "endDate": "2005",
+            "startDate": "2001-08-01",
+            "endDate": "2005-08-01",
             "summary": "",
             "highlights": [
                 "Good Conduct Medal",
@@ -220,8 +220,8 @@
             "organization": "SpokAnimal Animal Shelter",
             "position": "",
             "website": "http://www.spokanimal.org/",
-            "startDate": "2009",
-            "endDate": "2016",
+            "startDate": "2012-08-01",
+            "endDate": "2016-08-01",
             "summary": "Assisted in community outreach programs, marketing, adoptions, the foster program, and barn cat and stray programs.",
             "highlights": []
         }
