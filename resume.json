@@ -1,0 +1,201 @@
+{
+    "basics": {
+        "name": "David Tacker",
+        "label": "Software Engineer",
+        "website": "http://www.geekbocks.com",
+        "summary": "Software Enginner with over 12 years of extensive experience in all levels of development including, but not limited to, performance, functionality, integration, system, regression, and user acceptance testing. Supportive and enthusiastic team player who excells in streamlining processes and efficiently resolving project issues. Dedicated to ownership of core components and upholding the institution's mission satement.",
+        "phone": "(509) 590-8734",
+        "email": "david.tacker@gmail.com",
+        "picture": "",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Honolulu",
+            "countryCode": "US",
+            "region": "HI"
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "davetacker",
+                "url": "https://www.linkedin.com/in/davetacker"
+            },
+            {
+                "network": "GitHub",
+                "username": "kneeki",
+                "url": "https://github.com/kneeki"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Geekbocks, LLC",
+            "website": "",
+            "position": "Owner",
+            "startDate": "2007-05-01",
+            "endDate": "",
+            "hours": "20",
+            "summary": "Design, write, test, debug, and maintain software solutions for my small business and large corporation clientele in the Healthcare, Oil, and Sports Industies.",
+            "highlights": [
+                "Oil Maps (http://www.oil-maps.com); revolutionized the oil well location and data retrieval industry by providing safe and reliable routing and detailed well, operator, and production information regarding millions of rig locations",
+                "Rock'n'Roll Marathon (http://www.runrocknroll.com/); created and maintain RockDocEMR Race Management Software which provides medical personnel with quick, intuitive and reliable medical and physical GPS location information for every participant"
+            ]
+        },
+        {
+            "company": "RedFynn Technologies",
+            "website": "",
+            "position": "Software Engineer",
+            "startDate": "2014-10-01",
+            "endDate": "2015-08-01",
+            "hours": "40",
+            "salary": "42,000 Annually",
+            "address": "960 W Elliot Rd Suite 112, Tempe, AZ 85284",
+            "supervisor": "Ryan Pool",
+            "contact_phone": "(888) 510-9871",
+            "summary": "Worked closely with the Development Manager to move the company ahead of industry standards and create new applications streamlining workflow and improving customer experience, ultimately yeilding higher profit margins and employee job satisfaction.",
+            "highlights": [
+                "Evaluated existing software and designed new solutions to old problems; proposed, created, and implemented new billing statement analyzer with hundreds of new features",
+                "Designed, wrote, tested, debugged, and deployed a payment processing gateway with integrated API and client facing portal, as well as a Content Management System (CMS) with accompanying front-facing website",
+                "Advised and guided various departments and owner on a wide variety of complex IT issues within established timeframes"
+            ]
+        },
+        {
+            "company": "Choice Management, LLC",
+            "website": "",
+            "position": "Network Administrator",
+            "startDate": "2010-06-01",
+            "endDate": "2012-08-01",
+            "hours": "40",
+            "salary": "40,000 Annually",
+            "address": "110 N Post St, Spokane, WA 99201",
+            "summary": "Worked closely with the owner of the company providing professional advice regarding prospective investments and assisted in the development of a video conferencing software.",
+            "highlights": [
+                "Administrated the home-office and two off-site buildings remotely using secure VPN Technologies, managing 35 workstations with accompanying servers and firewalls with a 99% uptime",
+                "Designed, wrote, tested, debugged, and deployed multiple in-house office administrative applications streamlining and automating many otherwise time-consuming duties",
+                "Responded to internal trouble calls relating to IT systems due to suspected hardware, software, and network failures",
+                "Maintained continuous liaison with contractors and management insuring that all appropriate parties are informed of system related problems and changes that may impact users",
+                "Ensured acquisition of Information Technology (IT) products and services, for both companies and contractors, were compliant with appropriate regulations and policies prior to purchase"
+            ]
+        },
+        {
+            "company": "Memories By Design, Inc",
+            "website": "",
+            "position": "Technical Support Coordinator",
+            "startDate": "2005-05-01",
+            "endDate": "2010-08-01",
+            "hours": "40",
+            "salary": "36,000 Annually",
+            "address": "827 W 1st Ave #401, Spokane, WA 99201",
+            "supervisor": "Brian Christensen",
+            "contact_phone": "(800) 223-3050",
+            "summary": "Interfaced with customers and managed company wide IT matters.",
+            "highlights": [
+                "Provided quick diagnosis and solutions for a vast range of computer problems including but not limited to network, workstation, peripherals, and digital backups",
+                "Responded to trouble calls from internal staff, field agents, and external clients relating to IT systems",
+                "Advised and guided various departments and owners on a wide variety of complex IT issues within established timeframes",
+                "Created an (internal only) FAQ quick-solve database for a vast variety of technical problems",
+                "Designed, wrote, tested, and debugged a video streaming service with accompanying client portal",
+                "Liaisoned with contractors and management in the development of an in-house order management software used by all employees"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "The Art Institute of Seattle",
+            "gpa": "",
+            "courses": [],
+            "startDate": "2012-08-01",
+            "endDate": "2014-06-01",
+            "area": "Culinary Sciences",
+            "studyType": "AA"
+        },
+        {
+            "institution": "Spokane Falls Community College",
+            "gpa": "",
+            "courses": [],
+            "startDate": "2014-08-01",
+            "endDate": "2016-03-23",
+            "area": "General Transfer Degree",
+            "studyType": "AA"
+        },
+        {
+            "institution": "University of Hawaii at Manoa",
+            "gpa": "",
+            "courses": [],
+            "startDate": "2016-08-01",
+            "endDate": "Present",
+            "area": "Computer Science",
+            "studyType": "BA"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Operating Systems",
+            "level": "",
+            "keywords": [
+                "Linux",
+                "Windows",
+                "Windows Server",
+                "Android"
+            ]
+        },
+        {
+            "name": "Mobile",
+            "level": "",
+            "keywords": [
+                "Unity",
+                "Ionic.io",
+                "Appery",
+                "Android Studio"
+            ]
+        },
+        {
+            "name": "Desktop",
+            "level": "",
+            "keywords": [
+                "Java",
+                "C/C++",
+                "Python",
+                "Bash/Shell",
+                "Visual Basic",
+                ".NET"
+            ]
+        },
+        {
+            "name": "Web",
+            "level": "",
+            "keywords": [
+                "HTML 5",
+                "CSS3",
+                "Javascript",
+                "REST API",
+                "PHP",
+                "ASP.NET"
+            ]
+        },
+        {
+            "name": "Database",
+            "level": "",
+            "keywords": [
+                "MySQL",
+                "SQLite",
+                "SQL Server 2008"
+            ]
+        },
+        {
+            "name": "Javascript",
+            "level": "",
+            "keywords": [
+                "Node.js",
+                "Angular.js",
+                "jQuery",
+                "Bootstrap",
+                "AJAX"
+            ]
+        }
+    ],
+    "volunteer": [],
+    "interests": [],
+    "references": 0,
+    "languages": []
+}

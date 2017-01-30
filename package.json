@@ -1,0 +1,21 @@
+{
+  "name": "jsonresume-theme-Dave",
+  "version": "1.0.0",
+  "description": "A printable theme for JSON Resume",
+  "author": "Dave Tacker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kneeki/jsonresume-theme-Dave.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.4",
+    "css": "2.2.x"
+  },
+  "bugs": {
+    "url": "https://github.com/kneeki/jsonresume-theme-Dave/issues"
+  },
+  "homepage": "https://github.com/kneeki/jsonresume-theme-Dave",
+  "main": "index.js",
+  "devDependencies": {}
+}
