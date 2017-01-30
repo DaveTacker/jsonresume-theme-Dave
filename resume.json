@@ -3,7 +3,7 @@
         "name": "David Tacker",
         "label": "Software Engineer",
         "website": "http://www.geekbocks.com",
-        "summary": "Software Enginner with over 12 years of extensive experience in all levels of development including, but not limited to, performance, functionality, integration, system, regression, and user acceptance testing. Supportive and enthusiastic team player who excells in streamlining processes and efficiently resolving project issues. Dedicated to ownership of core components and upholding the institution's mission satement.",
+        "summary": "Software Enginner with over 12 years of extensive experience in all levels of development including but not limited to performance, functionality, integration, system, regression, custom workstation assembly, and user acceptance testing. Supportive and enthusiastic team player who excells in streamlining processes and efficiently resolving project issues. Dedicated to ownership of core components and upholding the institution's mission satement.",
         "phone": "(509) 590-8734",
         "email": "david.tacker@gmail.com",
         "picture": "",
@@ -56,7 +56,8 @@
             "highlights": [
                 "Evaluated existing software and designed new solutions to old problems; proposed, created, and implemented new billing statement analyzer with hundreds of new features",
                 "Designed, wrote, tested, debugged, and deployed a payment processing gateway with integrated API and client facing portal, as well as a Content Management System (CMS) with accompanying front-facing website",
-                "Advised and guided various departments and owner on a wide variety of complex IT issues within established timeframes"
+                "Built a custom workstation for a specialized accounting department",
+                "Advised and guided various departments and owner on a wide variety of complex Information Technology (IT) issues within established timeframes"
             ]
         },
         {
@@ -71,10 +72,11 @@
             "summary": "Worked closely with the owner of the company providing professional advice regarding prospective investments and assisted in the development of a video conferencing software.",
             "highlights": [
                 "Administrated the home-office and two off-site buildings remotely using secure VPN Technologies, managing 35 workstations with accompanying servers and firewalls with a 99% uptime",
+                "Assembled workstations and servers, and wired the buildings for high-speed networking",
                 "Designed, wrote, tested, debugged, and deployed multiple in-house office administrative applications streamlining and automating many otherwise time-consuming duties",
-                "Responded to internal trouble calls relating to IT systems due to suspected hardware, software, and network failures",
+                "Responded to internal trouble calls relating to IT systems",
                 "Maintained continuous liaison with contractors and management insuring that all appropriate parties are informed of system related problems and changes that may impact users",
-                "Ensured acquisition of Information Technology (IT) products and services, for both companies and contractors, were compliant with appropriate regulations and policies prior to purchase"
+                "Ensured acquisition of IT products and services, for companies and contractors, were compliant with appropriate regulations and policies prior to purchase"
             ]
         },
         {
@@ -88,11 +90,12 @@
             "address": "827 W 1st Ave #401, Spokane, WA 99201",
             "supervisor": "Brian Christensen",
             "contact_phone": "(800) 223-3050",
-            "summary": "Interfaced with customers and managed company wide IT matters.",
+            "summary": "Interfaced with customers and managed company-wide IT matters.",
             "highlights": [
-                "Provided quick diagnosis and solutions for a vast range of computer problems including but not limited to network, workstation, peripherals, and digital backups",
+                "Provided quick diagnosis and solutions for a vast range of technical problems including but not limited to network, workstation, peripherals, and digital backups",
                 "Responded to trouble calls from internal staff, field agents, and external clients relating to IT systems",
                 "Advised and guided various departments and owners on a wide variety of complex IT issues within established timeframes",
+                "Built servers and workstations for a wide variety of departmental specifications",
                 "Created an (internal only) FAQ quick-solve database for a vast variety of technical problems",
                 "Designed, wrote, tested, and debugged a video streaming service with accompanying client portal",
                 "Liaisoned with contractors and management in the development of an in-house order management software used by all employees"
@@ -101,13 +104,13 @@
     ],
     "education": [
         {
-            "institution": "The Art Institute of Seattle",
+            "institution": "University of Hawaii at Manoa",
             "gpa": "",
             "courses": [],
-            "startDate": "2012-08-01",
-            "endDate": "2014-06-01",
-            "area": "Culinary Sciences",
-            "studyType": "AA"
+            "startDate": "2016-08-01",
+            "endDate": "Present",
+            "area": "Computer Science",
+            "studyType": "BA"
         },
         {
             "institution": "Spokane Falls Community College",
@@ -119,13 +122,13 @@
             "studyType": "AA"
         },
         {
-            "institution": "University of Hawaii at Manoa",
+            "institution": "The Art Institute of Seattle",
             "gpa": "",
             "courses": [],
-            "startDate": "2016-08-01",
-            "endDate": "Present",
-            "area": "Computer Science",
-            "studyType": "BA"
+            "startDate": "2012-08-01",
+            "endDate": "2014-06-01",
+            "area": "Culinary Sciences",
+            "studyType": "AA"
         }
     ],
     "skills": [
@@ -188,13 +191,41 @@
             "keywords": [
                 "Node.js",
                 "Angular.js",
-                "jQuery",
+                "Handlebars.js",
+                "jQuery.js",
                 "Bootstrap",
                 "AJAX"
             ]
         }
     ],
-    "volunteer": [],
+    "experience": [
+        {
+            "organization": "United States Navy",
+            "position": "Culinary Specialist",
+            "website": "",
+            "startDate": "2001",
+            "endDate": "2005",
+            "summary": "",
+            "highlights": [
+                "Good Conduct Medal",
+                "Global War on Terrorism Service Medal",
+                "National Defense Service Medal",
+                "Submarine Insignia",
+                "SSBN Service Patrol Pin (4 patrols)"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "SpokAnimal Animal Shelter",
+            "position": "",
+            "website": "http://www.spokanimal.org/",
+            "startDate": "2009",
+            "endDate": "2016",
+            "summary": "Assisted in community outreach programs, marketing, adoptions, the foster program, and barn cat and stray programs.",
+            "highlights": []
+        }
+    ],
     "interests": [],
     "references": 0,
     "languages": []

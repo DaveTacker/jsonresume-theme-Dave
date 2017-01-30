@@ -1,148 +1,11 @@
 <!doctype html>
 <html>
     <head>
-        <script>
-        </script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>{{resume.basics.name}}</title>
         <style>
             {{{css}}}
-        </style>
-        <style>
-            body {
-                background: #EEEEEE;
-                font-family: 'Source Sans Pro', sans-serif;
-                line-height: 1.4;
-                margin: 40px 0;
-            }
-            .container {
-                margin: 0 auto;
-                max-width: 8.5in;
-                padding: 80px 100px;
-                background: #fff;
-                border: 1px solid #ccc;
-                box-shadow: 2px 2px 4px #aaa;
-                -webkit-box-shadow: 2px 2px 4px #aaa;
-            }
-
-            .page-header {
-                padding-bottom: 10.5px;
-                margin: 46px 0 23px;
-                border-bottom: 1px solid #eeeeee;
-            }
-
-            .page-header h6 {
-                margin: 0px;
-                padding: 0px;
-                line-height: .8;
-                font-weight: bold;
-            }
-
-            .page-header {
-                margin-top: 0px;
-            }
-
-            .no-margin-top {
-                margin-top: 0px;
-            }
-
-            .no-margin {
-                margin: 0;
-            }
-            .no-margin-bottom {
-                margin-bottom: 0px;
-            }
-
-            .sm-margin-bottom {
-                margin-bottom: 8px;
-            }
-
-            .sm-margin-top {
-                margin: 10px 0px 0px 0px;
-            }
-
-            .lg-margin-top {
-                margin-top: 15px;
-            }
-
-            .no-padding {
-                padding: 0;
-            }
-
-            .no-padding-left {
-                padding-left: 0px;
-            }
-
-            .no-padding-right {
-                padding-right: 0px;
-            }
-
-            .sm-padding-left {
-                padding-left: 8px;
-            }
-
-            .no-bullets {
-                list-style: none;
-            }
-
-            .job-title {
-                float: left;
-                font-size: 15px;
-                width: 100%;
-            }
-
-            .job-details {
-                font-size: .7em;
-                float: right;
-                text-align: right;
-                margin-bottom: 0;
-            }
-
-            .job-information {
-                font-size: 10px;
-                padding: 0 0 0 8px;
-            }
-
-            .education-details {
-                font-style: italic;
-                padding-left: 8px;
-                font-size: 11px;
-            }
-
-            .print-together {
-                page-break-inside: auto;
-            }
-
-            .no-page-break {
-                page-break-inside: avoid;
-                page-break-after: auto;
-            }
-
-            .newspaper {
-                text-align: justify;
-                text-justify: newspaper
-            }
-
-            @media print {
-                @page {
-                    size: letter portrait;
-                    margin: 25mm 25mm 25mm 25mm;
-                }
-                .container {
-                    max-width: 100%;
-                    border: 0px;
-                    background: #fff;
-                    box-shadow: none;
-                    -webkit-box-shadow: none;
-                }
-                body,
-                html,
-                .container {
-                    margin: 0px;
-                    padding: 0px;
-                }
-            }
         </style>
     </head>
     <body>
@@ -163,7 +26,7 @@
             <!-- LEFT COLUMN -->
             <div class="col-xs-3 no-padding">
                 <div class="page-header no-margin">
-                    <h6>ABOUT</h6>
+                    <h5>ABOUT</h5>
                 </div>
 
                 <!-- LEFT COLUMN: Address, contact information -->
@@ -200,7 +63,7 @@
                     <!-- LEFT COLUMN: Skills -->
                     {{#if resume.skills.length}}
                     <div class="page-header no-margin lg-margin-top">
-                        <h6>SKILLS</h6>
+                        <h5>SKILLS</h5>
                     </div>
 
                     <div class="print-together">
@@ -232,7 +95,7 @@
                 <!-- RIGHT COLUMN: Experience -->
                 {{#if resume.work.length}}
                 <div class="page-header no-margin-top sm-margin-bottom">
-                    <h6>PROFESSIONAL EXPERIENCE</h6>
+                    <h5>PROFESSIONAL EXPERIENCE</h5>
                 </div>
 
                 <div class="print-together">
@@ -253,7 +116,7 @@
 
                         <div class="clearfix"></div>
 
-                        <p class="job-information">
+                        <p class="job-information no-margin">
                             {{#if address}}{{address}}{{/if}}
                             {{#if supervisor}}- {{supervisor}}{{/if}}
                             {{#if contact_phone}}- {{contact_phone}}{{/if}}
@@ -283,14 +146,14 @@
                 {{#if resume.education.length}}
                 <div class="print-together">
                     <div class="no-page-break">
-                        <div class="page-header no-margin-top sm-margin-bottom">
-                            <h6>EDUCATION</h6>
+                        <div class="page-header lg-margin-top">
+                            <h5>EDUCATION</h5>
                         </div>
 
                         {{#each resume.education}}
-                        <h6 class="job-title {{#unless @first}}sm-margin-top{{/unless}} no-margin">
+                        <h6 class="job-title sm-margin-top no-margin">
                             {{#if startDate}}
-                            <span class="job-details">
+                            <span class="education-date">
                                 {{#if startDate}}{{startDate}}{{/if}} to {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
                             </span>
                             {{/if}}
@@ -300,7 +163,7 @@
 
                         <div class="clearfix"></div>
 
-                        <p class="education-details no-margin-bottom">
+                        <p class="education-details no-margin">
                             {{#if studyType}}{{studyType}},{{/if}}
                             {{#if area}}{{area}}{{/if}}
                             {{#if gpa}}, GPA: {{gpa}}{{/if}}
@@ -321,6 +184,94 @@
                 </div>
                 {{/if}}
                 <!-- // RIGHT COLUMN: Education -->
+
+
+                <!-- RIGHT COLUMN: Volunteer -->
+                {{#if resume.experience.length}}
+                <div class="print-together">
+                    <div class="no-page-break">
+                        <div class="page-header lg-margin-top">
+                            <h5>MILITARY EXPERIENCE</h5>
+                        </div>
+
+                        {{#each resume.experience}}
+                        <h6 class="job-title sm-margin-top no-margin">
+                            {{#if startDate}}
+                            <span class="education-date">
+                                {{#if startDate}}{{startDate}}{{/if}} to {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
+                            </span>
+                            {{/if}}
+
+                            {{#if organization}}{{organization}}{{/if}}
+                        </h6>
+
+                        <div class="clearfix"></div>
+
+                        <p class="education-details no-margin">
+                            {{#if position}}{{position}}{{/if}}
+                            {{#if summary}}{{#if position}}<br />{{/if}}{{summary}}{{/if}}
+                        </p>
+
+                        <div class="clearfix"></div>
+
+                        {{#if highlights.length}}
+                        <ul class="no-margin-bottom">
+                            {{#each highlights}}
+                            <li>{{.}}</li>
+                            {{/each}}
+                        </ul>
+                        {{/if}}
+
+                        {{/each}}
+
+                    </div>
+                </div>
+                {{/if}}
+                <!-- // RIGHT COLUMN: Volunteer -->
+
+
+                <!-- RIGHT COLUMN: Volunteer -->
+                {{#if resume.volunteer.length}}
+                <div class="print-together">
+                    <div class="no-page-break">
+                        <div class="page-header lg-margin-top">
+                            <h5>VOLUNTEER EXPERIENCE</h5>
+                        </div>
+
+                        {{#each resume.volunteer}}
+                        <h6 class="job-title sm-margin-top no-margin">
+                            {{#if startDate}}
+                            <span class="education-date">
+                                {{#if startDate}}{{startDate}}{{/if}} to {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
+                            </span>
+                            {{/if}}
+
+                            {{#if organization}}{{organization}}{{/if}}
+                        </h6>
+
+                        <div class="clearfix"></div>
+
+                        <p class="education-details no-margin">
+                            {{#if position}}{{position}}{{/if}}
+                            {{#if summary}}{{#if position}}<br />{{/if}}{{summary}}{{/if}}
+                        </p>
+
+                        <div class="clearfix"></div>
+
+                        {{#if highlights.length}}
+                        <ul class="no-margin-bottom">
+                            {{#each highlights}}
+                            <li>{{.}}</li>
+                            {{/each}}
+                        </ul>
+                        {{/if}}
+
+                        {{/each}}
+
+                    </div>
+                </div>
+                {{/if}}
+                <!-- // RIGHT COLUMN: Volunteer -->
 
             </div> <!-- // Right COLUMN -->
         </div> <!-- // Container -->

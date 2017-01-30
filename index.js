@@ -69,6 +69,14 @@ function render(resume) {
             });
         }
 
+        // Modify the dates for volunteering
+        if (validateArray(resume.volunteer)) {
+            resume.volunteer.forEach(function (block) {
+                block.startDate = formatDate(block.startDate, 0);
+                block.endDate = formatDate(block.endDate, 0);
+            });
+        }
+
         // Modify the dates for work
         if (validateArray(resume.work)) {
             resume.work.forEach(function (block) {
