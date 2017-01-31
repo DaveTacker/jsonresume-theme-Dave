@@ -34,6 +34,27 @@ You can print directly from the served html.
 
 You may toggle `SORT__KEYWORDS` to alphabetically sort the keywords (useful for long arrays) and `CLEAN_DATES` to use shortened dates. See `index.js`.
 
+This theme supports a modified `resume.json` schema which allows you to add a seperate 'experience' category.
+
+```json
+"experience": [
+    {
+        "organization": "United States Navy",
+        "position": "Culinary Specialist",
+        "website": "",
+        "startDate": "2001-08-01",
+        "endDate": "2005-08-01",
+        "summary": "",
+        "highlights": [
+            "Good Conduct Medal",
+            "Global War on Terrorism Service Medal",
+            "National Defense Service Medal",
+            "Submarine Insignia",
+            "SSBN Service Patrol Pin (4 patrols)"
+        ]
+    }
+],
+```
 
 ## License
 The MIT License (MIT)
