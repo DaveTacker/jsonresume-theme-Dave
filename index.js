@@ -92,6 +92,20 @@ function render(resume) {
                 block.endDate = formatDate(block.endDate, 1);
             });
         }
+
+        // Modify the dates for publications
+        if (validateArray(resume.publications)) {
+            resume.publications.forEach(function (block) {
+                block.releaseDate = formatDate(block.releaseDate, 1);
+            });
+        }
+
+        // Modify the dates for publications
+        if (validateArray(resume.awards)) {
+            resume.awards.forEach(function (block) {
+                block.date = formatDate(block.date, 1);
+            });
+        }
     }
 
 

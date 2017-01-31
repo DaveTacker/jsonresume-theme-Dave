@@ -32,7 +32,8 @@ You can print directly from the served html.
 
 ## Options
 
-You may toggle `SORT__KEYWORDS` to alphabetically sort the keywords (useful for long arrays). See `index.js`. The interest section is no longer denoted with a `.sectionName`. Instead, each `interest[i].name` has the `.sectionName` class.
+You may toggle `SORT__KEYWORDS` to alphabetically sort the keywords (useful for long arrays) and `CLEAN_DATES` to use shortened dates. See `index.js`.
+
 
 ## License
 The MIT License (MIT)
