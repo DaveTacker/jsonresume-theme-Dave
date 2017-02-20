@@ -21,7 +21,20 @@ function render(resume) {
      * @returns {boolean}
      */
     function validateArray(arr) {
-        return arr !== undefined && arr !== null && arr instanceof Array && arr.length > 0;
+        var retVal = false;
+
+        try {
+            if (arr !== undefined &&
+                arr !== null &&
+                arr instanceof Array &&
+                arr.length > 0) {
+                retVal = true;
+            }
+        } catch (e) {
+            console.warn(e.message);
+        }
+
+        return retVal;
     }
 
     /**
@@ -104,6 +117,14 @@ function render(resume) {
         if (validateArray(resume.awards)) {
             resume.awards.forEach(function (block) {
                 block.date = formatDate(block.date, 1);
+            });
+        }
+
+        // Modify the dates for certifications
+        if (validateArray(resume.certifications)) {
+            resume.certifications.forEach(function (block) {
+                block.startDate = formatDate(block.startDate, 1);
+                block.endDate = formatDate(block.endDate, 1);
             });
         }
     }

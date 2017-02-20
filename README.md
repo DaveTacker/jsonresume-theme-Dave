@@ -34,7 +34,7 @@ You can print directly from the served html.
 
 You may toggle `SORT__KEYWORDS` to alphabetically sort the keywords (useful for long arrays) and `CLEAN_DATES` to use shortened dates. See `index.js`.
 
-This theme supports a modified `resume.json` schema which allows you to add a seperate 'experience' category.
+This theme supports a modified `resume.json` schema which allows you to add seperate 'experience' and 'certifications' categories.
 
 ```json
 "experience": [
@@ -54,6 +54,20 @@ This theme supports a modified `resume.json` schema which allows you to add a se
         ]
     }
 ],
+"certifications": [
+    {
+        "name": "CompTIA A+",
+        "url": "https://certification.comptia.org/certifications/a",
+        "startDate": "08/01/2004",
+        "endDate": ""
+    },
+    {
+        "name": "CompTIA Network+",
+        "url": "https://certification.comptia.org/certifications/network",
+        "startDate": "08/01/2004",
+        "endDate": ""
+    }
+]
 ```
 
 ## License

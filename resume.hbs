@@ -110,16 +110,40 @@
 
             <!-- RIGHT COLUMN -->
             <div class="col-xs-9 no-padding-right">
+                <!-- RIGHT COLUMN: Certifications -->
+                {{#if resume.certifications.length}}
+                <div class="page-header no-margin-top no-margin-bottom">
+                    <h5>CERTIFICATIONS</h5>
+                </div>
+
+                {{#each resume.certifications}}
+                <h6 class="job-title sm-margin-top no-margin-bottom">
+                    {{#if startDate}}
+                    <span class="education-date">
+                        {{#if startDate}}{{startDate}}{{/if}} to {{#if endDate}}{{endDate}}{{else}}Present{{/if}}
+                    </span>
+                    {{/if}}
+
+                    {{#if name}}{{name}}{{/if}}
+                </h6>
+
+                <div class="clearfix"></div>
+                {{/each}}
+                {{/if}}
+                <!-- // RIGHT COLUMN: Certifications -->
+
+
+
                 <!-- RIGHT COLUMN: Experience -->
                 {{#if resume.work.length}}
-                <div class="page-header no-margin-top sm-margin-bottom">
+                <div class="page-header no-margin-bottom lg-margin-top">
                     <h5>PROFESSIONAL EXPERIENCE</h5>
                 </div>
 
                 <div class="print-together">
                     {{#each resume.work}}
                     <div class="no-page-break">
-                        <h6 class="job-title no-margin-top no-margin-bottom">
+                        <h6 class="job-title sm-margin-top no-margin-bottom">
                             <span class="job-details">
                                 {{#if hours}}{{hours}} HRS per week<br />{{/if}}
                                 {{#if salary}}{{salary}}<br />{{/if}}
@@ -128,8 +152,8 @@
                                 {{/if}}
                             </span>
 
-                            {{#if company}}{{company}}{{/if}}
-                            {{#if position}}<br />{{position}}{{/if}}
+                            {{#if position}}{{position}}{{/if}}
+                            {{#if company}}<br /><small style="font-size: 90%;">{{company}}</small>{{/if}}
                         </h6>
 
                         <div class="clearfix"></div>
@@ -154,8 +178,9 @@
                     </ul>
                     {{/if}}
                     {{/each}}
-                    {{/if}}
+
                 </div>
+                {{/if}}
                 <!-- // RIGHT COLUMN: Experience -->
 
 
@@ -164,7 +189,7 @@
                 {{#if resume.education.length}}
                 <div class="print-together">
                     <div class="no-page-break">
-                        <div class="page-header lg-margin-top">
+                        <div class="page-header no-margin-bottom lg-margin-top">
                             <h5>EDUCATION</h5>
                         </div>
 
@@ -208,7 +233,7 @@
                 {{#if resume.experience.length}}
                 <div class="print-together">
                     <div class="no-page-break">
-                        <div class="page-header lg-margin-top">
+                        <div class="page-header no-margin-bottom lg-margin-top">
                             <h5>MILITARY EXPERIENCE</h5>
                         </div>
 
@@ -250,9 +275,7 @@
 
                 <!-- RIGHT COLUMN: Volunteer -->
                 {{#if resume.volunteer.length}}
-                <div class="print-together">
-                    <div class="no-page-break">
-                        <div class="page-header lg-margin-top">
+                        <div class="page-header no-margin-bottom lg-margin-top">
                             <h5>VOLUNTEER EXPERIENCE</h5>
                         </div>
 
@@ -285,9 +308,6 @@
                         {{/if}}
 
                         {{/each}}
-
-                    </div>
-                </div>
                 {{/if}}
                 <!-- // RIGHT COLUMN: Volunteer -->
 
@@ -296,7 +316,7 @@
                 {{#if resume.publications.length}}
                 <div class="print-together">
                     <div class="no-page-break">
-                        <div class="page-header lg-margin-top">
+                        <div class="page-header no-margin-bottom lg-margin-top">
                             <h5>PUBLICATIONS</h5>
                         </div>
 
@@ -331,7 +351,7 @@
                 {{#if resume.awards.length}}
                 <div class="print-together">
                     <div class="no-page-break">
-                        <div class="page-header lg-margin-top">
+                        <div class="page-header no-margin-bottom lg-margin-top">
                             <h5>AWARDS</h5>
                         </div>
 
@@ -372,7 +392,7 @@
                 <!-- // RIGHT COLUMN: date -->
 
             </div>
-        <!-- // Right COLUMN -->
+            <!-- // Right COLUMN -->
         </div> <!-- // Container -->
     </body>
 </html>

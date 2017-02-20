@@ -609,8 +609,8 @@ a.bg-danger:focus {
     background-color: #e4b9b9;
 }
 .page-header {
-    padding-bottom: 9px;
-    margin: 40px 0 20px;
+    padding-bottom: 5px;
+    margin: 40px 0 10px;
     border-bottom: 1px solid #eeeeee;
 }
 ul,
@@ -1466,8 +1466,8 @@ body {
 }
 
 .page-header {
-    padding-bottom: 10.5px;
-    margin: 46px 0 23px;
+    padding-bottom: 5px;
+    margin: 40px 0 10px;
     border-bottom: 1px solid #eeeeee;
 }
 
@@ -1498,11 +1498,11 @@ body {
 }
 
 .sm-margin-top {
-    margin: 10px 0px 0px 0px;
+    margin: 8px 0px 0px 0px;
 }
 
 .lg-margin-top {
-    margin: 15px 0 0 0;
+    margin-top: 15px;
 }
 
 .no-padding {
