@@ -14,7 +14,7 @@
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Source+Sans+Pro:300,400,600,700');
 
 html {
     font-family: sans-serif;
@@ -287,7 +287,7 @@ html {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Source Sans Pro", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 12px;
     line-height: 1.42857143;
     color: #333333;
@@ -302,12 +302,14 @@ textarea {
     line-height: inherit;
 }
 a {
-    color: #337ab7;
+    /*color: #337ab7;*/
+    color: #ea5359;
     text-decoration: none;
 }
 a:hover,
 a:focus {
-    color: #23527c;
+    /*color: #23527c;*/
+    color: #cb484d;
     text-decoration: underline;
 }
 a:focus {
@@ -1544,13 +1546,17 @@ body {
 
 .job-information {
     font-size: 10px;
-    padding: 0 0 0 8px;
+    padding: 0 0 0 0px;
 }
 
 .education-details {
     font-style: italic;
-    padding-left: 8px;
+    /* padding-left: 8px; */
     font-size: 11px;
+}
+
+.education-courses {
+    columns: 2;
 }
 
 .print-together {
@@ -1564,7 +1570,28 @@ body {
 
 .newspaper {
     text-align: justify;
-    text-justify: newspaper
+    text-justify: newspaper;
+    padding-left: 5px;
+    border-left: 2px solid lightblue;
+}
+
+.basics-name {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  line-height: .8;
+}
+
+.basics-label {
+  font-weight: 300;
+}
+
+h5 {
+    font-family: "Noto Sans", "Source Sans Pro", sans-serif;
+}
+
+.page-header h5 {
+    font-variant-caps: petite-caps;
+    font-size: 14px;
 }
 
 @media print {
